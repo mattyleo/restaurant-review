@@ -22,7 +22,3 @@ In this folder, start up a simple HTTP server to serve up the site files on your
 ## Leaflet.js and Mapbox:
 
 This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` on main.js and restaurant_info.js with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information.
-
-## Service Worker:
-
-I want thanks **Matt Gaunt** for his fantastic article that help me on the creation of the [Service Worker](https://developers.google.com/web/fundamentals/primers/service-workers/)
