@@ -1,5 +1,5 @@
 #  Restaurant Reviews
-## Udacity Frontend Developer Nanodegree
+## Udacity Frontend Web Developer Nanodegree
 ---
 
 
