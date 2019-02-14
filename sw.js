@@ -1,5 +1,5 @@
-var CACHE_NAME = 'restaurant-cache-v1';
-var urlsToCache = [
+const CACHE_NAME = 'restaurant-cache-v1';
+const urlsToCache = [
   './',
   '/css/styles.css',
   '/css/responsive.css',
@@ -52,11 +52,8 @@ self.addEventListener('fetch', function(event) {
               return response;
             }
 
-            // IMPORTANT: Clone the response. A response is a stream
-            // and because we want the browser to consume the response
-            // as well as the cache consuming the response, we need
-            // to clone it so we have two streams.
-            var responseToCache = response.clone();
+            // Clone the respnse
+            let responseToCache = response.clone();
 
             caches.open(CACHE_NAME)
               .then(function(cache) {
