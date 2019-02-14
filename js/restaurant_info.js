@@ -34,7 +34,6 @@ initMap = () => {
     }
   });
 }  
- 
 /* window.initMap = () => {
   fetchRestaurantFromURL((error, restaurant) => {
     if (error) { // Got an error!
