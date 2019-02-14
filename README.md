@@ -24,6 +24,6 @@ For this project I used **MapBox API** for rendering the _map_, I set-up a **ser
 
 This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information.
 
-### Note about ES6
+## Service Worker:
 
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future-proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write.
+I want thanks **Matt Gaunt** for this fantastic article that help me a lot on the creation of the [Service Worker](https://developers.google.com/web/fundamentals/primers/service-workers/)
